@@ -1,0 +1,20 @@
+.cart-value-info {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-bottom: 0;
+  margin-left: auto;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cart-value-price {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 10px;
+  margin-left: auto;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ff0000;
+}

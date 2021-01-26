@@ -1,0 +1,60 @@
+[
+    {
+        "pid": "8e5e1248-c799-4937-9acc-2b3ab0e034ff",
+        "name": "Patelnia",
+        "price": "89.9",
+        "max": 10,
+        "min": 1,
+        "photo": "https://ecsmedia.pl/c/patelnia-tefal-intuition-a7030615-28-cm-p-iext51965684.jpg"
+    },
+    {
+        "pid": "993c12b2-e662-4af7-b0bc-fef5c1d47720",
+        "name": "Garnek mały",
+        "price": "29",
+        "max": 10,
+        "min": 1,
+        "photo": "https://ecsmedia.pl/c/garnek-do-gotowania-na-parze-koninghoffer-senso-22-cm-p-iext60430458.jpg"
+    },
+    {
+        "pid": " b5d89364-6f82-4304-a22b-4784727e3981",
+        "name": "Garnek duży",
+        "price": "49.99",
+        "max": 10,
+        "min": 1,
+        "photo": "https://ecsmedia.pl/c/garnek-wysoki-florina-26-cm-10-5-l-p-iext65732542.jpg"
+    },
+    {
+        "pid": "a80912b1-56d7-49f0-9092-167706bd526a",
+        "name": "Zestaw garnków 10 w 1",
+        "price": "259.89",
+        "max": 2,
+        "min": 1,
+        "photo": "https://ecsmedia.pl/c/zestaw-garnkow-10-elem-klausberg-kb-7276-p-iext62096267.jpg"
+    },
+    {
+        "pid": "51630312-2166-4cae-9590-ad77fd9f4a55",
+        "name": "Ręcznik kuchenny",
+        "price": "5.00",
+        "max": 20,
+        "min": 1,
+        "photo": "https://ecsmedia.pl/c/recznik-kuchenny-mega-foxy-2-szt-p-iext66924649.jpg"
+    },
+    {
+        "pid": "14cc426d-8db0-46c4-b579-3f61ff3568ca",
+        "name": "React (ebook)",
+        "price": "34.99",
+        "max": 1,
+        "min": 1,
+        "isBlocked": true,
+        "photo": "https://ecsmedia.pl/c/react-16-framework-dla-profesjonalistow-p-iext66938467.jpg"
+    },
+    {
+        "pid": "8a6a63f0-0605-4340-a7f5-aff3a592eb5a",
+        "name": "Kuchnia tradycyjna (ebook)",
+        "price": "24.99",
+        "max": 1,
+        "min": 1,
+        "isBlocked": true,
+        "photo": "https://ecsmedia.pl/c/kuchnia-polska-p-iext66357222.jpg"
+    }
+]
