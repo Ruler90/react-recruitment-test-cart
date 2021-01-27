@@ -7,7 +7,7 @@ const CartContextProvider = (props) => {
   const [cartInfo, setCartInfo] = useState([]);
 
   return (
-    <CartContext.Provider value={{ products, setProducts, cartInfo, setCartInfo, }}>
+    <CartContext.Provider value={{ products, setProducts, cartInfo, setCartInfo }}>
       {props.children}
     </CartContext.Provider>
   );

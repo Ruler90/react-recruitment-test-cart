@@ -17,13 +17,13 @@ const ProductList = () => {
   const createCartElements = async () => {
     const cartData = await checkCart();
     const productsInCart = cartData.map((item) => (
-      <li key={item.pid} className='product'>
+      <li key={item.pid} className="product">
         <div className="product-photo">
-          <img className="product-photo__image" src={item.photo} alt="zdjęcie produktu"/>
+          <img className="product-photo__image" src={item.photo} alt="zdjęcie produktu" />
         </div>
-        <div className='product-info'>
-          <p className='product-info__name'>{item.name}</p>
-          <p className='product-info__price'>{fixPriceFormat(item.price)}</p>
+        <div className="product-info">
+          <p className="product-info__name">{item.name}</p>
+          <p className="product-info__price">{fixPriceFormat(item.price)}</p>
         </div>
 
         <ProductQuantity
@@ -44,8 +44,8 @@ const ProductList = () => {
 
   return (
     <>
-      <h3 className='product-list-header'>Lista produktów</h3>
-      <ul className='product-list'>{products}</ul>
+      <h3 className="product-list-header">Lista produktów</h3>
+      <ul className="product-list">{products}</ul>
     </>
   );
 };

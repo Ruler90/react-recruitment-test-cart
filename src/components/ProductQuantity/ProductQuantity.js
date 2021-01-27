@@ -79,55 +79,55 @@ const ProductQuantity = (props) => {
 
   if (loadingState) {
     changeQuantityBtns = (
-      <div className='product-quantity-btns'>
-        <div className='loading-overlay'>
+      <div className="product-quantity-btns">
+        <div className="loading-overlay">
           <img
-            className='loading-overlay__spinner'
-            src='https://media.empik.com/content/elements/spinner-40-black.svg'
-            alt='ikona ładowania'
+            className="loading-overlay__spinner"
+            src="https://media.empik.com/content/elements/spinner-40-black.svg"
+            alt="ikona ładowania"
           />
         </div>
-        <button className='product-quantity__btn' disabled onClick={addProduct}>+</button>
-        <button className='product-quantity__btn' disabled onClick={removeProduct}>-</button>
+        <button type="button" className="product-quantity__btn" disabled onClick={addProduct}>+</button>
+        <button type="button" className="product-quantity__btn" disabled onClick={removeProduct}>-</button>
       </div>
-    )
+    );
   } else if (props.isBlocked) {
     changeQuantityBtns = (
-      <div className='product-quantity-btns'>
-          <button className='product-quantity__btn' disabled onClick={addProduct}>+</button>
-          <button className='product-quantity__btn' disabled onClick={removeProduct}>-</button>
-        </div>
-    )
+      <div className="product-quantity-btns">
+        <button type="button" className="product-quantity__btn" disabled onClick={addProduct}>+</button>
+        <button type="button" className="product-quantity__btn" disabled onClick={removeProduct}>-</button>
+      </div>
+    );
   } else if (!addBtn) {
     changeQuantityBtns = (
-      <div className='product-quantity-btns'>
-          <button className='product-quantity__btn' disabled onClick={addProduct}>+</button>
-          <button className='product-quantity__btn' onClick={removeProduct}>-</button>
-        </div>
-    )
+      <div className="product-quantity-btns">
+        <button type="button" className="product-quantity__btn" disabled onClick={addProduct}>+</button>
+        <button type="button" className="product-quantity__btn" onClick={removeProduct}>-</button>
+      </div>
+    );
   } else if (!removeBtn) {
     changeQuantityBtns = (
-      <div className='product-quantity-btns'>
-          <button className='product-quantity__btn' onClick={addProduct}>+</button>
-          <button className='product-quantity__btn' disabled onClick={removeProduct}>-</button>
-        </div>
-    )
+      <div className="product-quantity-btns">
+        <button type="button" className="product-quantity__btn" onClick={addProduct}>+</button>
+        <button type="button" className="product-quantity__btn" disabled onClick={removeProduct}>-</button>
+      </div>
+    );
   } else {
     changeQuantityBtns = (
-      <div className='product-quantity-btns'>
-        <button className='product-quantity__btn' onClick={addProduct}>+</button>
-        <button className='product-quantity__btn' onClick={removeProduct}>-</button>
+      <div className="product-quantity-btns">
+        <button type="button" className="product-quantity__btn" onClick={addProduct}>+</button>
+        <button type="button" className="product-quantity__btn" onClick={removeProduct}>-</button>
       </div>
-    )
+    );
   }
 
   return (
-    <div className='product-quantity'>
-      <p className='product-quantity__text'>
+    <div className="product-quantity">
+      <p className="product-quantity__text">
         Obecnie masz {quantity} szt. produktu
       </p>
       {changeQuantityBtns}
-      <p className='product-quantity__text product-quantity__text--error'>
+      <p className="product-quantity__text product-quantity__text--error">
         {errorMsg}
       </p>
     </div>

@@ -17,13 +17,13 @@ const CartValue = () => {
   };
 
   useEffect(() => {
-    setCartValue(calculateCartValue())
+    setCartValue(calculateCartValue());
   }, [cartInfo]);
 
   return (
     <>
-      <h3 className='cart-value-info'>Wartość koszyka:</h3>
-      <p className='cart-value-price'>{cartValue}</p>
+      <h3 className="cart-value-info">Wartość koszyka:</h3>
+      <p className="cart-value-price">{cartValue}</p>
     </>
   );
 };
